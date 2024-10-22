@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nobel", Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    font-size:  400 20px ;
+}
+.logo{
+    height: 130px;
+    padding: 30px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+#navbar{
+    height:100px ;
+    width: 100%;
+    background-color: #f55757e2;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+.centernav{
+    height: 2rem;
+    margin-left:10px ;
+    flex: 20;
+}
+.rightbar{
+    flex: 10;
+    border-radius: 2px solid white;
+    display: flex;
+    font-weight: 600;
+}
+
+.menubar{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.navlist{
+    margin: 0 0.5rem;
+    list-style-type: none;
+}
+.navlist >a{
+    text-decoration:none;
+    width: 2rem;
+    color: white ;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.navlist >a:hover{
+   text-decoration: underline;
+}
+.image{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.image{
+    padding: 220px;
+    color: whitesmoke;
+}
+.msg{
+    font-size: 48px;
+    height: 120px;
+}
+.btn-one{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+    margin-top: 5px;
+}
+.btn-one:hover{
+    cursor: pointer;
+}
+.one{
+    background-image: url("images/img1.jpg");
+    background-position:center;
+    background-size:cover ;
+}
+.main-btn-one{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(10, 91, 43, 0.8);
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 90px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 2;
+   
+}
+.head-two{
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.sidehead{
+    font-size: 30px;
+}
+.para{
+    font-size:18px;
+}
+.btn-two{
+    width: 200px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px 0 0;
+    margin-top: 5px;
+}
+.btn-two:hover{
+    cursor: pointer;
+}
+.two{
+    background-image: url("images/img2.jpg");
+    background-position:center;
+    background-size:cover ;
+   
+}
+.main-btn-two{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(10, 91, 43, 0.8);
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 90px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 2;
+   
+}
+.btn-three{
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0;
+    margin-top: 5px;
+}
+.btn-three:hover{
+    cursor: pointer;
+}
+.three{
+    background-image: url("images/img3.jpg");
+    background-position:center;
+    background-size:cover ;
+}
+.footer{
+    flex: 3;
+    margin-right:0px ;
+    display: flex;
+    background-color:#3d3c3c; 
+}
+
+.footer{
+   z-index: 100;
+   bottom: 0;
+   width: 100%;
+   padding-top: 10px;
+}
+.footer ul{
+    width: 80%;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.footer ul li{
+    margin:1 rem ;
+    margin-top:1 rem ;
+    font-weight: 500;
+}
+.footer ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footertag p{
+    background-color:#3d3c3c;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
